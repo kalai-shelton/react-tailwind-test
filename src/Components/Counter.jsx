@@ -9,7 +9,7 @@ const Counter = () => {
     <div className='flex flex-col justify-center h-40vh'>
         {count}
         <div>
-       <button className='border-4 rounded-md border-red-400' onClick={handleClick}>Increase</button> 
+       <button className='border-4 rounded-md border-red-400 focus:border-green-400' onClick={handleClick}>Increase</button> 
        </div>
     </div>
   )
